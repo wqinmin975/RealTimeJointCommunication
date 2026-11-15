@@ -1,0 +1,15 @@
+{
+  "n_samples": 136987,
+  "rmse_expected_db": 5.391572988157249,
+  "bias_expected_db": -0.02389557085995345,
+  "rmse_los_db": 5.391572988157249,
+  "rmse_nlos_db": null,
+  "frac_model_los": 1.0,
+  "source": "f10.csv; f11.csv; f12.csv; f13.csv",
+  "f_hz": 3400000000.0,
+  "data_mode": "measured",
+  "is_real_measurement": true,
+  "measurement_source_doi": "10.5061/dryad.2ngf1vj4r",
+  "rmse_nlos_db_note": "JSON null (strict). No samples were classified NLOS by the model (frac_model_los=1.0), so the NLOS-subset RMSE is undefined. Originally a bare NaN token; replaced with null for strict-JSON validity. No numeric measurement was changed.",
+  "provenance_note": "data_mode / is_real_measurement / measurement_source_doi / rmse_nlos_db_note are provenance metadata added by the reproduction-package curation (repro-exec); all measurement fields are unchanged. This is the REAL measured AERPAW validation, NOT the synthetic --demo output."
+}

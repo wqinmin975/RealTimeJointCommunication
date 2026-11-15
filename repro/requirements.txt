@@ -1,0 +1,34 @@
+# Reproduction requirements — PeerJ Computer Science resubmission
+# ---------------------------------------------------------------------------
+# Third-party packages verifiable from the authoritative scripts' imports:
+#   sim_analysis_3gpp.py : numpy, scipy, cvxpy, clarabel, matplotlib
+#                          (+ stdlib json/time/csv/sys/hashlib/datetime/pathlib)
+#   channel_3gpp.py      : numpy
+#   channel_38901_fading.py : numpy
+#   opt_gap_3gpp.py      : numpy, matplotlib (+ stdlib json/os/pathlib)
+#   validate_aerpaw.py   : numpy, matplotlib (+ stdlib argparse/json/math/pathlib)
+#   aerpaw_validation_detail.py : numpy, matplotlib (+ stdlib argparse/json/pathlib)
+#   make_*_fig.py / calibrate_official_fading.py / extract_measured_tracks.py
+#                        : numpy, matplotlib (+ stdlib json/pickle/math/pathlib)
+#
+# NOTE on scipy / clarabel: both are imported at the TOP of sim_analysis_3gpp.py
+#   solely to RECORD THEIR VERSIONS in the multi-start summary JSON. They are
+#   CVXPY transitive dependencies (clarabel = its bundled solver), so
+#   `pip install numpy cvxpy matplotlib` already provides them; NO separate pip
+#   entries are needed here. AUTHOR TODO: confirm on the target machine.
+# NOTE: PyYAML is NOT imported by any script in the authoritative pipeline.
+# NOTE: torch / gym appear ONLY in the HISTORICAL prototype hrl_airborne_fm_v1.py;
+#       they are NOT needed to reproduce the paper and are deliberately omitted.
+#
+# === AUTHOR TODO (BLOCKING BEFORE SUBMISSION) ==============================
+# Pin the EXACT versions on the machine that GENERATED the submitted figures:
+# run `pip freeze` in that ORIGINAL runnable environment (which MUST have cvxpy),
+# and verify whether CLARABEL is bundled with the pinned CVXPY build. Also record
+# Python and OS. Do NOT copy versions from this typesetting machine or from a
+# later re-run environment (see repro/README.md §7) — that would guarantee a
+# failed reproduction. No exact pins are asserted here on purpose.
+# ===========================================================================
+
+numpy                 # AUTHOR TODO: replace with exact pin from the ORIGINAL run env
+cvxpy>=1.5            # AUTHOR TODO: >=1.5 is a hint from the repo's historical README (CLARABEL ships with it), NOT an asserted pin; replace with exact pin
+matplotlib            # AUTHOR TODO: replace with exact pin from the ORIGINAL run env

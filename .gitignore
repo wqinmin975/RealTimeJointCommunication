@@ -1,0 +1,31 @@
+# ---- Python caches ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ---- Virtual environment (do NOT upload; 73 MB of site-packages) ----
+.venv_exp/
+.venv/
+venv/
+
+# ---- Private agent / project data (must not be public) ----
+.workbuddy/
+
+# ---- Paper draft (pending submission, contains unfilled AUTHOR TODOs) ----
+paper/
+paper_work/
+
+# ---- Generated figures & logs (regenerable from code) ----
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.log
+
+# ---- OS / editor junk ----
+.DS_Store
+Thumbs.db
+*.swp

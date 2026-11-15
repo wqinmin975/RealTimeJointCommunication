@@ -1,0 +1,6 @@
+version,dropped,mean_lat_ms,rel_lat_x,p95_lat_ms,frac_lt50_pct,mean_acc,min_acc,acc_viol_pct,mean_fm_lat_ms,mean_uav_user_dist_m,mean_J
+v5,--- (full method),13.3,1.0,14.4,100.0,0.761,0.759,0.0,61.9,86.7,0.732
+v4,solver acceleration (DPP / warm-start),227,17.1,311,0.0,0.762,0.759,0.0,61.9,83.6,0.610
+v3,+ demand-adaptive $l/q/e$ & velocity bound,145,10.9,202,0.0,0.490,0.490,100.0,14.0,79.7,1.167
+v2,+ block-coordinate descent (UAV & bandwidth),55,4.1,70,20.0,0.490,0.490,100.0,14.0,103.7,1.187
+v1,+ offline warm-start dictionary & MPC look-ahead,114,8.6,142,0.0,0.490,0.490,100.0,14.0,103.7,1.079

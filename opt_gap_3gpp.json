@@ -1,0 +1,37 @@
+{
+  "channel": "3GPP TR 38.901 UMa/ULA-Los (sim_analysis_3gpp)",
+  "note": "Replaces opt_gap.py, which ran on the prototype's idealised free-space channel; the two are not comparable.",
+  "n_steps": 40,
+  "ref_rounds": 30,
+  "mean_J": {
+    "v4": 0.610106620571253,
+    "v5": 0.7322258787349853,
+    "ref": 0.609651818950965
+  },
+  "mean_lat_ms": {
+    "v4": 225.7240400009323,
+    "v5": 14.610509999329224
+  },
+  "mean_acc": {
+    "v4": 0.7623893067031213,
+    "v5": 0.7613104543511412
+  },
+  "acceleration_cost_pct": {
+    "mean": 21.663669714563046,
+    "rms": 28.44030323238507,
+    "mae": 21.663669714563046,
+    "maxabs": 67.43733309093767
+  },
+  "surrogate_gap_v4_pct": {
+    "mean": 0.062060340010039405,
+    "rms": 0.09477439663413245,
+    "mae": 0.06206098858799321,
+    "maxabs": 0.22338436264053965
+  },
+  "surrogate_gap_v5_pct": {
+    "mean": 21.73216528054531,
+    "rms": 28.466743341942497,
+    "mae": 21.73216528054531,
+    "maxabs": 67.43733162403406
+  }
+}

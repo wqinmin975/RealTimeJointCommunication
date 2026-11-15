@@ -1,0 +1,54 @@
+# ---------------------------------------------------------------------------
+# CITATION.cff — TEMPLATE ONLY. Every AUTHOR TODO below MUST be filled by the
+# authors before deposit. Nothing here asserts a real identity, DOI, year,
+# licence or version. See repro/README.md §10.
+# ---------------------------------------------------------------------------
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata from this file."
+
+# --- AUTHOR TODO: title / abstract / keywords -------------------------------
+title: "AUTHOR_TODO: repository title (match the manuscript)"
+abstract: "AUTHOR_TODO: one-paragraph description of the reproduction package"
+keywords:
+  - "AUTHOR_TODO: e.g. UAV communications"
+  - "AUTHOR_TODO: e.g. foundation model inference"
+  - "AUTHOR_TODO: e.g. 3GPP TR 38.901"
+
+# --- AUTHOR TODO: authors (one block per author; ORCID is REQUIRED TODO) -----
+# The manuscript lists four authors — provide all four, with ORCIDs.
+authors:
+  - family-names: "AUTHOR_TODO_FAMILY_NAME_1"
+    given-names: "AUTHOR_TODO_GIVEN_NAME_1"
+    orcid: "AUTHOR_TODO_ORCID_1"          # format: https://orcid.org/XXXX-XXXX-XXXX-XXXX
+    affiliation: "AUTHOR_TODO_INSTITUTION_1"
+  - family-names: "AUTHOR_TODO_FAMILY_NAME_2"
+    given-names: "AUTHOR_TODO_GIVEN_NAME_2"
+    orcid: "AUTHOR_TODO_ORCID_2"
+    affiliation: "AUTHOR_TODO_INSTITUTION_2"
+  - family-names: "AUTHOR_TODO_FAMILY_NAME_3"
+    given-names: "AUTHOR_TODO_GIVEN_NAME_3"
+    orcid: "AUTHOR_TODO_ORCID_3"
+    affiliation: "AUTHOR_TODO_INSTITUTION_3"
+  - family-names: "AUTHOR_TODO_FAMILY_NAME_4"
+    given-names: "AUTHOR_TODO_GIVEN_NAME_4"
+    orcid: "AUTHOR_TODO_ORCID_4"
+    affiliation: "AUTHOR_TODO_INSTITUTION_4"
+
+# --- AUTHOR TODO: version / release date / licence / DOI / URL --------------
+version: "AUTHOR_TODO_VERSION"            # e.g. the archived release tag
+date-released: "AUTHOR_TODO_YYYY-MM-DD"
+license: "AUTHOR_TODO_SPDX_LICENSE_ID"   # must match the chosen LICENSE file
+doi: "AUTHOR_TODO_ZENODO_DOI"            # deposit first, then insert; do NOT invent
+url: "AUTHOR_TODO_REPOSITORY_URL"
+repository-code: "AUTHOR_TODO_REPOSITORY_URL"
+
+# --- AUTHOR TODO: link to the published article (if available) --------------
+preferred-citation:
+  type: article
+  title: "AUTHOR_TODO: manuscript title"
+  authors:
+    - family-names: "AUTHOR_TODO_FAMILY_NAME_1"
+      given-names: "AUTHOR_TODO_GIVEN_NAME_1"
+  journal: "PeerJ Computer Science"
+  year: "AUTHOR_TODO_YEAR"
+  doi: "AUTHOR_TODO_ARTICLE_DOI"

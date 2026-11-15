@@ -1,0 +1,37 @@
+# Conda environment — PeerJ Computer Science resubmission
+# ---------------------------------------------------------------------------
+# Packages below are those verifiable from the authoritative scripts' imports:
+#   numpy, scipy, cvxpy, clarabel, matplotlib  (Python itself is AUTHOR TODO).
+# scipy and clarabel are imported at the top of sim_analysis_3gpp.py ONLY to
+# record their versions in the multi-start summary JSON; both are CVXPY
+# transitive dependencies (clarabel = its bundled solver), so installing cvxpy
+# already provides them. They are therefore NOT listed as separate pins here —
+# AUTHOR TODO: confirm on the target machine whether to list them explicitly.
+# PyYAML is NOT imported by any authoritative script.
+#
+# === AUTHOR TODO (BLOCKING BEFORE SUBMISSION) ==============================
+# Replace every "AUTHOR TODO" below with the EXACT version from the ORIGINAL
+# runnable environment that GENERATED the submitted figures (`conda list` /
+# `pip freeze`). Do NOT copy versions from this typesetting machine or from a
+# later re-run environment (see repro/README.md §7). No exact pins are asserted
+# here on purpose.
+# ===========================================================================
+
+name: airborne-fm-repro
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  # --- AUTHOR TODO: pin exact Python version from the ORIGINAL run env ---
+  - python
+  # --- AUTHOR TODO: pin exact numpy version from the ORIGINAL run env ---
+  - numpy
+  # --- AUTHOR TODO: pin exact matplotlib version from the ORIGINAL run env ---
+  - matplotlib
+  - pip
+  - pip:
+      # --- AUTHOR TODO: pin exact CVXPY version (>=1.5 is only a hint from the
+      #     repo's historical README); confirm bundled CLARABEL on that machine ---
+      - cvxpy>=1.5

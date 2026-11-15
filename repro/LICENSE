@@ -1,0 +1,38 @@
+LICENSE — TEMPLATE ONLY (NOT YET A VALID LICENCE)
+=================================================
+
+This file is a placeholder. No licence has been chosen by the reproduction-
+package curation; the choice is an explicit AUTHOR TODO. Do NOT deposit the
+package with this file as-is. See repro/README.md §10.
+
+AUTHOR TODO — decisions required before submission
+-------------------------------------------------
+1. CODE LICENCE: choose one SPDX-identified licence for the scripts in this
+   repository (e.g. MIT / Apache-2.0 / GPL-3.0 — the choice is the authors').
+   Replace this entire file with the full, unmodified text of the chosen
+   licence, and set the matching SPDX id in:
+     - repro/CITATION.cff  -> `license:`
+     - repro/environment.yml / requirements.txt comments (optional)
+
+2. DATA LICENCE: the machine-readable supplement (repro/supplement/) may need
+   a SEPARATE licence (e.g. CC0-1.0 / CC-BY-4.0 — the choice is the authors'),
+   and the upstream AERPAW measured data keeps its own Dryad licence
+   (doi:10.5061/dryad.2ngf1vj4r). State this explicitly in the Data and Code
+   Availability paragraph (repro/data_availability_draft.md) and in the
+   supplement manifest. Do NOT assume the code licence covers the data.
+
+3. COPYRIGHT LINE: fill in both placeholders below once a licence is chosen.
+
+   Copyright (c) [AUTHOR_TODO_YEAR] [AUTHOR_TODO_COPYRIGHT_HOLDER]
+   (institution and/or the four authors — confirm with the funder/institution)
+
+4. INSTITUTIONAL APPROVAL: confirm with the authors' institution
+   (Guangdong University of Science and Technology) whether any institutional
+   or funder policy constrains the licence choice.
+
+AUTHOR TODO placeholders in this file
+------------------------------------
+[AUTHOR_TODO_YEAR]                 - copyright year
+[AUTHOR_TODO_COPYRIGHT_HOLDER]     - copyright holder (institution / authors)
+[AUTHOR_TODO_LICENSE]              - chosen SPDX licence id (code)
+[AUTHOR_TODO_DATA_LICENSE]         - chosen SPDX licence id (data, if different)
